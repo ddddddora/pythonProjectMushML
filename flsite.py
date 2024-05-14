@@ -10,12 +10,12 @@ menu = [{"name": "Лаба 1", "url": "p_knn"},
         {"name": "Лаба 3", "url": "p_lab3"}]
 
 loaded_model_knn = pickle.load(open('model/mushroom.fg', 'rb'))
-loaded_model_lr = pickle.load(open('model/mushroom.fg', 'rb'))
-loaded_model_dt = pickle.load(open('model/mushroom.fg', 'rb'))
+loaded_model_lr = pickle.load(open('model/mushrooms_file', 'rb'))
+loaded_model_dt = pickle.load(open('model/mush', 'rb'))
 
 @app.route("/")
 def index():
-    return render_template('index.html', title="Лабораторные работы, выполненные ФИО", menu=menu)
+    return render_template('index.html', title="Лабораторные работы, выполненные Капшуковой Дарьей", menu=menu)
 
 
 @app.route("/p_knn", methods=['POST', 'GET'])
