@@ -6,7 +6,7 @@ html, body {
 	width: 100%;
 }
 a {
-	color: #0059b2;
+	color: #008B8B;
 	text-decoration: none;
 }
 a:hover {
@@ -17,7 +17,7 @@ a:hover {
 .clear {clear: both;}
 ul.mainmenu {
 	list-styLe: none;
-	background: #3F4137;
+	background: #ADD8E6;
 	height: 60px;
 	margin: 0;
 	padding: 0;
@@ -31,7 +31,7 @@ ul.mainmenu li {
 }
 ul.mainmenu li.last {float: right;}
 ul.mainmenu li a {
-	coLor: #fdc073;
+	coLor: #008B8B;
 	text-decoration: none;
 }
 ul.mainmenu li a:hover {
@@ -45,8 +45,8 @@ form {
     margin-left: auto;
     margin-right: auto;
     max-width: 450px;
-    background-color: #3F4137;
-    color: #fdc073;
+    background-color: #ADD8E6;
+    color: #008B8B;
     border: 1px solid gray;
     border-radius: 5px;
     padding: 10px;
