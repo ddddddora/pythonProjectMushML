@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+{{ super() }}
+<p>Дерево решений для классфификации грибов</p>
+<form action="/p_lab3" method="POST">
+    <p><input type="text" class="form_text" name="list1"> Длина ножки</p>
+    <p><input name="list2" class="form_text" type="text"> Диаметр шляпки</p>
+    <p><input name="list3" class="form_text" type="text"> Толщина ножки</p>
+    <input type="submit" class="form_btn" value="Узнать сорт">
+    <h1>{{class_model}}</h1>
+</form>
+{% endblock %}
